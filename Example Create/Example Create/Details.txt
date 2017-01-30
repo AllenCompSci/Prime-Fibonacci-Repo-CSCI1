@@ -1,0 +1,78 @@
+﻿This project is created to aid solving the Prime and Fibonacci Assignment.
+
+The goal of this assignment is to create two seperate files.
+The first file is part 1. 
+## PART 1 
+#Primes
+You are to find/generate the first X number of primes whose value
+is less than 4,000,000 (Four Million). This should conform to to 
+the Pi function π(x). You can locate the function itself and refrence
+to this function via Google. But a working rescource is :
+https://primes.utm.edu/nthprime/index.php
+
+Generate all the primes and print them to a file, along with a numerical
+count. i.e. 
+1. 2
+2. 3
+3. 5
+
+You are not required to prove that 2,3,and 5 are prime. These are given
+you must show/generate from these the rest of the primes.
+
+##PART 2
+#Fibonacci Sequence
+
+You are embarking on a new systematic approach to the generation of
+a well known, and natrually occuring sequence. 
+
+You have to not only generate the sequence from the previous two terms. 
+
+Given the equation : 
+
+Fibonacci (n) = Fibonacci(n-1) + Fibonacci(n-2);
+You are given three terms of the sequence.
+Fibonacci (0) = 0;
+Fibonacci (1) = 1;
+Fibonacci (2) = 1;
+
+Simple adherence to the golden ratio we know that the 
+ratio of sequential elements of the Fibonacci sequence approach
+the golden ratio asymptotically. 
+
+#Golden Ratio Phi ( ф  or  Ф )
+ Phi = (1 + √(5)) / 2 
+
+ However this will be useful, but the Fibonacci sequence you generate
+ needs to be exact.  i.e. the terms at 300 must match the terms 
+ at 300 on lists online : 
+ http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibtable.html
+ 
+ There are others. 
+ 
+ This part of the project ends when you have found the first 100 digit 
+ term of the fibonacci sequence, you must print out to a file, all terms from 
+ f(0) to f(X) where f(X) = the first 100 digit fibonacci number.
+
+ ## CULMINATION
+
+ #CHRONO
+
+ Last but not least time the project.
+ You are to use some form of chrono to time the total time 
+ of the project, from generation to print.
+
+ You will encounter this. 
+ When timing the project with use of the Debugger, i.e. when you 
+ use the IDE Visual Studio's to compile the project, and not use
+ the *.exe either created in the Debug Folder, or the Release 
+ dependent on how you chose to build the project. You will have 
+ a time dependency on the IDE which will not count against you in 
+ the end of the project. 
+
+ Use the *.exe to show the total time.
+
+
+
+
+
+
